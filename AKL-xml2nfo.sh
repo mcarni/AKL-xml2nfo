@@ -1,5 +1,7 @@
 #! /bin/bash
 
+# something doesn't work, i guess when the rom's name has . , [] () or {}
+
 [ $# -eq 0 ] && echo "This script expects argument <gamelist> + optional argument <nfo folder>"$'\n'\
 $'\n'\
 "1) Provide the gamelist.xml to be used"$'\n'\
